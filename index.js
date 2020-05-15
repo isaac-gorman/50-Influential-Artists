@@ -1,3 +1,6 @@
+console.log("hi!")
+
+
 const artists = [
     {
       "id": 0,

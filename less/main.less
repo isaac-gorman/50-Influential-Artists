@@ -31,9 +31,12 @@
   border: 1px solid black;
   background-color: white;
   border-radius: 4px;
-  height: 40px;
-  width: 120px;
-  font-size: .65rem;
+
+  .button-style(.65rem, 40px, 120px);
+  // font-size: .65rem;
+  // height: 40px;
+  // width: 120px;
+
   // position:absolute;
   // z-index: 1;
   position: absolute;
@@ -42,9 +45,10 @@
   transform: translate(-50%, 100%);
 
   @media @desktop {
-    font-size: .75rem;
-    height: 40px;
-    width: 140px;
+    .button-style(.75rem, 40px, 140px);
+    // font-size: .75rem;
+    // height: 40px;
+    // width: 140px;
   }
 
   
