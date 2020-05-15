@@ -99,6 +99,11 @@ a {
   text-decoration: none;
   color: gray;
 }
+@media (min-width: 900px) {
+  a {
+    font-size: 1.5rem;
+  }
+}
 a b {
   padding: 5px;
   text-decoration: none;
